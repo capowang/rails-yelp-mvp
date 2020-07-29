@@ -14,3 +14,21 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+Restaurant
+ 
+ 
+  neptunian is not a valid category (FAILED - 10)
+  chinese is a valid category (FAILED - 11)
+  italian is a valid category (FAILED - 12)
+  japanese is a valid category (FAILED - 13)
+  french is a valid category (FAILED - 14)
+  belgian is a valid category (FAILED - 15)
+ 
+
+Review
+ 
+ 
+  parent restaurant cannot be nil (FAILED - 22)
+  rating should be a number between 0 and 5 (FAILED - 24)
+
